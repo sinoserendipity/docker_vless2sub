@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  worker-vless2sub:
+    build: .
+    ports:
+      - "8787:8787"
+    environment:
+      - TOKEN=auto
+      - HOST=example.com
+      - UUID=your-uuid
+      - PATH=/?ed=2048
+    volumes:
+      - ./_worker.js:/app/_worker.js 

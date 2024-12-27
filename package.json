@@ -1,0 +1,13 @@
+{
+  "name": "worker-vless2sub",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers VLESS subscription generator",
+  "main": "_worker.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "wrangler": "^3.0.0"
+  }
+} 

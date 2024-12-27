@@ -1,0 +1,14 @@
+name = "worker-vless2sub"
+main = "_worker.js"
+compatibility_date = "2023-12-01"
+
+[vars]
+TOKEN = "your token here"
+HOST = "you host here"
+UUID = "your uuid here"
+PATH = "your path here"
+SUBAPI ="subapi.fxxk.dedyn.io"
+SUBCONFIG = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"
+ADD = "icook.tw:2053#官方优选域名"
+ADDAPI = "https://addressesapi.090227.xyz/ct"
+IMG = "https://raw.cmliussss.com/keqing1080p.jpg"
