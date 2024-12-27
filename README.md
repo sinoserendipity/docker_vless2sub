@@ -5,5 +5,5 @@ docker build -t vless2sub .
 ```
 
 ```
-docker run -d -p 3000:3000 -v -v $(pwd)/_worker.js:/app/_worker.js
+docker run -d -p 3000:3000 -v $(pwd)/_worker.js:/app/_worker.js
 ```
