@@ -22,5 +22,8 @@ RUN npm install
 # 暴露端口
 EXPOSE 3000
 
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+
 # 启动命令
 CMD ["wrangler", "dev", "--local", "--port", "3000", "--ip", "0.0.0.0"] 
