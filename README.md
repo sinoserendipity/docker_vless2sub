@@ -17,18 +17,18 @@ cd WorkerVless2sub
 创建或修改 `wrangler.toml` 文件，配置您的参数：
 
 ```
-toml
 name = "worker-vless2sub"
-main = "worker.js"
+main = "_worker.js"
 compatibility_date = "2023-12-01"
+
 [vars]
-TOKEN = "你的TOKEN"
-HOST = "你的域名"
-UUID = "你的UUID"
-PATH = "你的路径"
-SUBAPI = "你的SUBAPI"
-SUBCONFIG = "你的SUBCONFIG"
-ADD = "你的ADD"
-ADDAPI = "你的ADDAPI"
-IMG = "你的IMG"
+TOKEN = "your token here"
+HOST = "you host here"
+UUID = "your uuid here"
+PATH = "your path here"
+SUBAPI ="subapi.fxxk.dedyn.io"
+SUBCONFIG = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"
+ADD = "icook.tw:2053#官方优选域名"
+ADDAPI = "https://addressesapi.090227.xyz/ct"
+IMG = "https://raw.cmliussss.com/keqing1080p.jpg"
 ```
