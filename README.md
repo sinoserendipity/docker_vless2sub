@@ -5,5 +5,19 @@ docker build -t vless2sub .
 ```
 
 ```
-docker run -d -p 3000:3000 -v $(pwd)/_worker.js:/app/_worker.js
+version: '3'
+
+services:
+  worker-vless2sub:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - TOKEN=auto
+      - HOST=example.com
+      - UUID=your-uuid
+      - PATH=/?ed=2048
+    volumes:
+      - ./_worker.js:/app/_worker.js
+      - ./wrangler.toml:/app/wrangler.toml
 ```
