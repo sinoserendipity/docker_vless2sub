@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM node:20
 
 WORKDIR /app
 
@@ -27,5 +27,6 @@ ENV LC_ALL=C.UTF-8
 
 # 启动命令
 CMD ["wrangler", "dev", "--local", "--port", "3000", "--ip", "0.0.0.0"] 
+
 
 
