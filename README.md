@@ -18,7 +18,7 @@ services:
       - UUID=your-uuid
       - PATH=/?ed=2048
     volumes:
-      - ./_worker.js:/app/_worker.js
+      # - ./_worker.js:/app/_worker.js
       - ./wrangler.toml:/app/wrangler.toml
 ```
 可以在 wrangler.toml 文件中添加内置节点参数
