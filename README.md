@@ -18,8 +18,8 @@ services:
       - UUID=your-uuid
       - PATH=/?ed=2048
     volumes:
-      # - ./_worker.js:/app/_worker.js
-      - ./wrangler.toml:/app/wrangler.toml
+      - ./_worker.js:/app/_worker.js  # 内置在docker里，不用映射
+      - ./wrangler.toml:/app/wrangler.toml # 需映射，方便修改参数
 ```
 可以在 wrangler.toml 文件中添加内置节点参数
 
