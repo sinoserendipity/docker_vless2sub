@@ -23,6 +23,6 @@ services:
 ```
 可以在 wrangler.toml 文件中添加内置节点参数
 
-## 原项目 https://github.com/cmliu/WorkerVless2sub
+原项目cm大佬 https://github.com/cmliu/WorkerVless2sub
 
 
