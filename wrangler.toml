@@ -1,6 +1,6 @@
 name = "worker-vless2sub"
 main = "_worker.js"
-compatibility_date = "2023-12-01"
+compatibility_date = "2025-10-29"
 
 [vars]
 TOKEN = "your token here"
