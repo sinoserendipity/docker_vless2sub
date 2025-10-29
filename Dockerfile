@@ -1,5 +1,5 @@
 # Use a smaller base image
-FROM node:20-alpine
+FROM node:20
 
 # Set the working directory
 WORKDIR /app
@@ -23,3 +23,4 @@ ENV LC_ALL=C.UTF-8
 
 # Start command
 CMD ["npx", "wrangler", "dev", "--local", "--port", "3000", "--ip", "0.0.0.0"]
+
