@@ -20,5 +20,6 @@ ENV LANG=C.UTF-8
 ENV LC_ALL=C.UTF-8
 
 # Start command
-CMD ["npx", "wrangler", "dev", "--local", "--port", "3000", "--ip", "0.0.0.0"]
+CMD ["wrangler", "dev", "--local", "--port", "3000", "--ip", "0.0.0.0"]
+
 
