@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy package.json and install dependencies
 COPY package.json ./
-RUN npm install
+RUN npm install -g wrangler
 
 # Copy the rest of the application files
 COPY _worker.js ./
@@ -21,3 +21,4 @@ ENV LC_ALL=C.UTF-8
 
 # Start command
 CMD ["npx", "wrangler", "dev", "--local", "--port", "3000", "--ip", "0.0.0.0"]
+
