@@ -21,3 +21,8 @@ services:
       - ./_worker.js:/app/_worker.js
       - ./wrangler.toml:/app/wrangler.toml
 ```
+可以在 wrangler.toml 文件中添加内置节点参数
+
+## 原项目 https://github.com/cmliu/WorkerVless2sub
+
+
