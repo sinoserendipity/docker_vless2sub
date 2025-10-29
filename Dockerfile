@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 RUN npm install -g wrangler
 
 # 复制项目文件
-# COPY _worker.js ./
+COPY _worker.js ./
 COPY package.json ./
 # COPY wrangler.toml ./
 
@@ -27,4 +27,5 @@ ENV LC_ALL=C.UTF-8
 
 # 启动命令
 CMD ["wrangler", "dev", "--local", "--port", "3000", "--ip", "0.0.0.0"] 
+
 
